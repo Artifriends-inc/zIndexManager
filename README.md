@@ -37,7 +37,7 @@ $ npm install zindex-manager
 
 ## People
 
-The original author of Express is [MushStory](https://github.com/MushStory)
+The original author of Z-Index Manager is [MushStory](https://github.com/MushStory)
 
 
 
