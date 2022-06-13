@@ -26,11 +26,11 @@
     "url": "https://github.com/Artifriends-inc/zIndexManager/issues"
   },
   "homepage": "https://github.com/Artifriends-inc/zIndexManager#readme",
-  "main": "",
+  "main": "zIndexManager.js",
   "files": [
     "LICENSE",
     "README.md",
-    ""
+    "zIndexManager.js"
   ],
   "dependencies": {}
 }
