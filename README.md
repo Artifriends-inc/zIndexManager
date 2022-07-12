@@ -46,12 +46,6 @@ https://github.com/Artifriends-inc/zIndexManager (zIndexManager.js)
 
 
 
-## People
-
-The original author of zindex-maximumvalue-manager is [MushStory](https://github.com/MushStory)
-
-
-
 ## Function
 
 #### getInstance()
@@ -84,6 +78,12 @@ Add maximum z-index value
 // add maximum z-index value
 zIndexManager.setZIndex(2);
 ```
+
+
+
+## People
+
+The original author of zindex-maximumvalue-manager is [MushStory](https://github.com/MushStory)
 
 
 
