@@ -57,7 +57,7 @@ Create "zIndexMaanger" object. only one object is created using a single-tone pa
 const zIndexManager = zIndexManager.getInstance();
 ```
 
-#### 
+
 
 #### getZIndex()
 
@@ -68,7 +68,7 @@ Get maximum z-index value
 console.log(zIndexManager.getZIndex()); // 1000
 ```
 
-#### 
+
 
 #### setZIndex()
 
