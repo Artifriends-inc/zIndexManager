@@ -2,7 +2,9 @@
 
 export class zIndexManager {
     static instance = null;
-    static getInstance(handler) {
+    static getInstance() {
+        const handler = document.querySelector('.rootPage').id;
+
         if (this.instance === null) {
             this.instance = new this();
             this.instance.init(handler);

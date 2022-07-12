@@ -1,7 +1,7 @@
 {
   "name": "zindex-maximumvalue-manager",
-  "version": "1.0.2",
-  "description": "zIndex Maximum Management",
+  "version": "1.0.3",
+  "description": "manage zIndex maximum value",
   "keywords": [
     "zIndex",
     "z-index",
@@ -12,11 +12,12 @@
     "android",
     "ios",
     "desktop",
+    "frontle",
     "cordova",
     "electron",
     "chrome extension"
   ],
-  "author": "Yoon HyungJun <y37653@gmail.com>",
+  "author": "Yun HyeongJun <y37653@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",

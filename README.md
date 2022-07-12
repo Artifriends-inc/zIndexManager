@@ -11,15 +11,18 @@ Managing the maximum value of zIndex
  [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
 ```javascript
-import {zIndexManager} from "./zindex-maximumvalue-manager/zIndexManager.js";
+import {zIndexManager} from "../../frontle/browser_modules/zindex-maximumvalue-manager/zIndexManager.js";
 
-this.zIndexManager = zIndexManager.getInstance(currentPageURL);
+// get instance
+const zIndexManager = zIndexManager.getInstance();
 
-console.log(this.zIndexManager.getZIndex()); // 1000
+// get maximum z-index value
+console.log(zIndexManager.getZIndex()); // 1000
 
-this.zIndexManager.setZIndex(2);
+// add maximum z-index value
+zIndexManager.setZIndex(2);
 
-console.log(this.zIndexManager.getZIndex()); // 1002
+console.log(zIndexManager.getZIndex()); // 1002
 
 ```
 
@@ -27,18 +30,60 @@ console.log(this.zIndexManager.getZIndex()); // 1002
 
 ## Installation
 
-Installation is done using the
+**How to install from Frontle**
 
 ```shell
-$ npm install zindex-maximumvalue-manager
-$ frontle install-original zindex-maximumvalue-manager # in frontle
+$ frontle install zindex-maximumvalue-manager
 ```
+
+
+
+**How to install from Web**
+
+For typical web projects, copy and use the code at zIndexManager.js in below repositorys
+
+https://github.com/Artifriends-inc/zIndexManager (zIndexManager.js)
 
 
 
 ## People
 
 The original author of zindex-maximumvalue-manager is [MushStory](https://github.com/MushStory)
+
+
+
+## Function
+
+#### getInstance()
+
+Create "zIndexMaanger" object. only one object is created using a single-tone pattern
+
+```javascript
+// get instance
+const zIndexManager = zIndexManager.getInstance();
+```
+
+#### 
+
+#### getZIndex()
+
+Get maximum z-index value
+
+```javascript
+// get maximum z-index value
+console.log(zIndexManager.getZIndex()); // 1000
+```
+
+#### 
+
+#### setZIndex()
+
+Add maximum z-index value
+
+```javascript
+// add maximum z-index value
+zIndexManager.setZIndex(2);
+```
 
 
 
