@@ -59,7 +59,7 @@ const zIndexManagerInstance = zIndexManager.getInstance();
 
 
 
-#### getZIndex()
+#### zIndexManagerInstance.getZIndex()
 
 Get maximum z-index value
 
@@ -70,7 +70,7 @@ console.log(zIndexManagerInstance.getZIndex()); // 1000
 
 
 
-#### setZIndex()
+#### zIndexManagerInstance.setZIndex()
 
 Add maximum z-index value
 
