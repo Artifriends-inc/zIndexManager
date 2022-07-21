@@ -14,7 +14,7 @@ Managing the maximum value of zIndex
 import {zIndexManager} from "../../frontle/browser_modules/zindex-maximumvalue-manager/zIndexManager.js";
 
 // get instance
-const zIndexManagerInstance = zIndexManager.getInstance();
+const zIndexManagerInstance = new zIndexManager();
 
 // get maximum z-index value
 console.log(zIndexManagerInstance.getZIndex()); // 1000
@@ -48,13 +48,13 @@ https://github.com/Artifriends-inc/zIndexManager (zIndexManager.js)
 
 ## Function
 
-#### getInstance()
+#### new zIndexManager()
 
 Create "zIndexMaanger" object. only one object is created using a single-tone pattern
 
 ```javascript
 // get instance
-const zIndexManagerInstance = zIndexManager.getInstance();
+const zIndexManagerInstance = new zIndexManager();
 ```
 
 

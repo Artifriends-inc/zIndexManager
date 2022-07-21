@@ -1,24 +1,21 @@
 'use strict';
 
 export class zIndexManager {
-    static instance = null;
-    static getInstance() {
+    static _instance = null;
+    constructor() {
         const handler = document.querySelector('.rootPage').id;
 
-        if (this.instance === null) {
-            this.instance = new this();
-            this.instance.init(handler);
-        } else {
-            if(this.instance.handler !== handler) this.instance.init(handler);
+        if (zIndexManager._instance) {
+            if(zIndexManager._instance.handler !== handler) zIndexManager._instance.init(handler);
+            return zIndexManager._instance;
         }
 
-        return this.instance;
+        this.init(handler);
+        zIndexManager._instance = this;
     }
 
     handler = null;
     zIndex = 1000;
-
-    constructor() {}
 
     init(handler) {
         this.handler = handler;
