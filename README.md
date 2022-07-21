@@ -11,7 +11,7 @@ Managing the maximum value of zIndex
  [![NPM Downloads][npm-downloads-image]][npm-downloads-url]
 
 ```javascript
-import {zIndexManager} from "../../frontle/browser_modules/zindex-maximumvalue-manager/zIndexManager.js";
+import {zIndexManager} from "../../browser_modules/zindex-maximumvalue-manager/zIndexManager.js";
 
 // get instance
 const zIndexManagerInstance = new zIndexManager();
